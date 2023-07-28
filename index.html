@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <title>Maior Que</title>
+</head>
+
+<body>
+    <div class="container" id="title">
+        <h1>Maior Que</h1>
+        <h2>B > A</h2>
+    </div>
+    <div class="container">
+        <form id="formulario">
+            <input id="A" placeholder="Valor A" type="text" required>
+            <p class="error-p-A">Digite somente numeros</p>
+            <input id="B" placeholder="Valor B" type="Text" required>
+            <p class="error-p-B">Digite somente numeros</p>
+            <div class="btns">
+                <button type="submit">Verificar</button>
+                <button type="reset">Resetar</button>
+            </div>
+            <p class="correto"> &#x2713; Parabéns, B > A &#x1F604;</p>
+            <p class="incorreto"> &#x2717; Infelizmente, B &lt; A &#x1F61E;</p>
+            <p class="empate">&#9878;&#xfe0f; Empate, B = A &#x1f914;</p>
+        </form>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
